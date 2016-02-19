@@ -1,0 +1,30 @@
+{
+  "name": "rest-aurant",
+  "version": "1.0.0",
+  "description": "rest-aurant implements a REST API on the MongoDB sample dataset in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-palmer/rest-aurant.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Node.js",
+    "REST"
+  ],
+  "author": "Todd Palmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-palmer/rest-aurant/issues"
+  },
+  "homepage": "https://github.com/t-palmer/rest-aurant#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "morgan": "^1.7.0"
+  }
+}
