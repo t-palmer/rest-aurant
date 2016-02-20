@@ -9,7 +9,7 @@ This document explains how to deploy Node.js on an AWS EC2 AMI Linux instance. I
 Follow the instructions for Setting Up with Amazon EC2:
  [http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)
 
-Launch an Amazon Linux AMI instance. You can use a nano sized instance for testing but you will want at least a micro for any development. To connect to your instance, use an SSH client like PuTTY. I really like MobaXterm. For more details you can go to:
+Launch an Amazon Linux AMI instance. You can use a nano sized instance for testing, but you will want at least a micro for any development. To connect to your instance, use an SSH client like PuTTY. I really like MobaXterm. For more details you can go to:
  [http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2\_GetStarted.html#ec2-connect-to-instance-linux](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-connect-to-instance-linux)
 
 Once you are connected, make sure your server has all updates:
@@ -20,7 +20,7 @@ Once you are connected, make sure your server has all updates:
 
 Install the **Development Tools** that we will use to build Node.js:
 
-**$ sudo yum groupinstall**'Development Tools'
+**$ sudo yum groupinstall 'Development Tools'**
 
 This installs at least the following tools:
 git, gcc-c++, g++, make
