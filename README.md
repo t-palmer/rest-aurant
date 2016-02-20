@@ -138,12 +138,12 @@ Import into MongoDB:
 ## Fork rest-aurant from GitHub
 
 The **rest-aurant GitHub** repository is located here:
- [https://github.com/t-palmer/rest-aurant](https://github.com/t-palmer/RESTaurant)
+ [https://github.com/t-palmer/rest-aurant](https://github.com/t-palmer/rest-aurant)
 Log into the GitHub web GUI and fork the **rest-aurant** repository. While you are there I would appreciate it if you would click on both **Star** and **Watch**. Thanks!
 
 Clone the forked repository so you have a local copy of rest-aurant on your AWS instance:
 
-**$ git clone https://github.com/your_github_username/rest-aurant**
+**$ git clone https://github.com/your_github_username/rest-aurant.git**
 
 Now change the directory to your new rest-aurant repository:
 
