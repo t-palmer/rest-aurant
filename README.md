@@ -75,7 +75,7 @@ You can then start an application like this:
 
 **$ forever start myapp.js**
 
-For more information of forever check out:
+For more information about forever, check out:
  [https://github.com/foreverjs/forever](https://github.com/foreverjs/forever)
 
 # MongoDB
