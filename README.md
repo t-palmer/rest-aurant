@@ -143,7 +143,7 @@ Log into the GitHub web GUI and fork the **rest-aurant** repository. While you a
 
 Clone the forked repository so you have a local copy of rest-aurant on your AWS instance:
 
-**$ git clone https://github.com/your\_github\_username/rest-aurant**
+**$ git clone https://github.com/your_github_username/rest-aurant**
 
 Now change the directory to your new rest-aurant repository:
 
