@@ -161,6 +161,8 @@ Run rest-aurant using forever:
 
 **$ forever start index.js**
 
+## Open rest-aurant Inbound Port
+
 By default rest-aurant will use port 3000. If you want to use another port just pass it as a parameter after index.js.
 
 In the AWS dashboard in the Security Groups for your instance you need to allow Inbound traffic on the rest-aurant port (default: 3000).
