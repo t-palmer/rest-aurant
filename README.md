@@ -20,7 +20,7 @@ Once you are connected, make sure your server has all updates:
 
 Install the **Development Tools** that we will use to build Node.js:
 
-**$ sudo yum groupinstall 'Development Tools'**
+**$ sudo yum groupinstall 'Development Tools' -y**
 
 This installs at least the following tools:
 git, gcc-c++, g++, make
