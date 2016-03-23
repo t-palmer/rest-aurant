@@ -39,7 +39,7 @@ Display the available versions of Node.js. Then pick the version of Node.js to i
 
 **$ git tag -l**
 
-**$ git checkout v4.3.1**
+**$ git checkout v4.4.0**
 
 **$ ./configure**
 
@@ -83,7 +83,11 @@ For more information about forever, check out:
 MongoDB provides detailed instructions for installation on AWS here:
  [https://docs.mongodb.org/manual/tutorial/install-mongodb-on-amazon/](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-amazon/)
 
-Basically, there are four steps:
+This is a summary of the steps:
+
+## Import the MongoDB public key
+
+**$ sudo rpm --import https://www.mongodb.org/static/pgp/server-3.2.asc
 
 ## Configure yum
 
@@ -120,6 +124,10 @@ You can start the  [mongod](https://docs.mongodb.org/manual/reference/program/mo
 You can optionally ensure that MongoDB will start following a system reboot by issuing the following command:
 
 **$ sudo chkconfig mongod on**
+
+## Optional: Disable Transparent Huge Pages
+
+MongoDB recommends that you should [disable transparent huge pages](https://docs.mongodb.org/master/tutorial/transparent-huge-pages/) to enhance performance.
 
 # rest-aurant
 
