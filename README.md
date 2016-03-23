@@ -87,7 +87,7 @@ This is a summary of the steps:
 
 ## Import the MongoDB public key
 
-**$ sudo rpm --import https://www.mongodb.org/static/pgp/server-3.2.asc
+**$ sudo rpm --import https://www.mongodb.org/static/pgp/server-3.2.asc**
 
 ## Configure yum
 
